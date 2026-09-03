@@ -6,13 +6,7 @@ export function Studio() {
   return (
     <section id="studio" className="relative px-5 py-24 sm:px-8 sm:py-32">
       <div className="mx-auto max-w-6xl">
-        <Reveal>
-          <p className="eyebrow">
-            // <b>the studio</b>
-          </p>
-        </Reveal>
-
-        <div className="mt-6 grid gap-14 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid gap-14 lg:grid-cols-[1.1fr_0.9fr]">
           <Reveal>
             <div className="space-y-6">
               {studio.story.map((para, i) => (

@@ -18,15 +18,6 @@ export function Hero() {
       />
 
       <div className="relative z-10 mx-auto w-full max-w-6xl">
-        <motion.p
-          className="eyebrow mb-8"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.1, duration: 0.5 }}
-        >
-          {site.wordmark} <b>//</b> {site.location}
-        </motion.p>
-
         <h1
           className="max-w-[16ch] text-[length:var(--text-hero)]"
           aria-label={`${site.heroLead} ${site.heroProblem} ${site.heroResolved}.`}
@@ -103,16 +94,6 @@ export function Hero() {
           </a>
         </motion.div>
       </div>
-
-      <motion.div
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 font-mono text-[0.65rem] tracking-widest text-muted"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.6, duration: 0.6 }}
-        aria-hidden="true"
-      >
-        scroll ↓
-      </motion.div>
     </section>
   );
 }

@@ -62,10 +62,7 @@ export function Work() {
     <section id="work" className="relative px-5 py-24 sm:px-8 sm:py-32">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <p className="eyebrow">
-            // <b>the solve log</b>
-          </p>
-          <h2 className="mt-4 max-w-[20ch] text-[length:var(--text-section)]">
+          <h2 className="max-w-[20ch] text-[length:var(--text-section)]">
             Selected problems, and what we shipped.
           </h2>
         </Reveal>
